@@ -1,0 +1,254 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeSkillItem}[1]{
+  \item\small{
+    {#1 
+    % \vspace{-2pt}
+    }
+  }
+}
+
+% ------------- resumeSubheading for 11pt document format
+% \newcommand{\resumeSubheading}[4]{
+%   \vspace{-2pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%       \textbf{#1} & #2 \\
+%       \textit{\small#3} & \textit{\small #4} \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+
+% ------------- resumeSubheading for 12pt document format
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% ------------- resumeProjectHeading for 11pt document format
+% \newcommand{\resumeProjectHeading}[2]{
+%     \item
+%     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+%       \small#1 & #2 \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+
+% ------------- resumeProjectHeading for 12pt document format
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStartZeroLeftIndent}{\begin{itemize}[leftmargin=0.2in, label=$\vcenter{\hbox{\small$\bullet$}}$]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEndZeroLeftIndent}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Abhisek Dash} \\ \vspace{8pt}
+    \small 
+    \href{https://github.com/Abhisek-07}{\textcolor{blue!70!black}{\faGithub\ Abhisek-07}} $|$ 
+    \href{https://linkedin.com/in/abhisek-dash-b566b6195/}{\textcolor{blue!70!black}{\faLinkedin\ Abhisek-Dash}} $|$ \href{mailto:abhisekdash6931@gmail.com}{\textcolor{blue!70!black}{\faEnvelope\ abhisekdash6931@gmail.com}} $|$  \textcolor{blue!70!black}{\faMobile\ +91 8018233270}
+    
+    
+\end{center}
+
+
+% ---------PROFESSIONAL SUMMARY----------
+
+\section{Professional Summary}
+ \begin{itemize}[leftmargin=0in, label={}]
+    {
+    \resumeItem{ A seasoned and result-oriented Software Engineer with over a year of experience in the fintech industry, skilled in building scalable, user-focused flutter applications. I am an inquisitive, driven, and self-motivated professional, adept at problem-solving, debugging and unit testing. I am seeking a challenging role that will allow me to further enhance my skills and learn new tech stacks. My technical proficiency and passion for continuous learning position me to make a significant impact within your team.}}
+ \end{itemize}
+% ---------------------------------------
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Open Financial Technologies}{May 2023 -- Present}
+      {Software Engineer}{Bengaluru, Karnataka}
+      \resumeItemListStartZeroLeftIndent
+        \resumeItem{\textbf{Open Business Payments app}:}
+          \begin{itemize}[leftmargin=0.15in, label=$\vcenter{\hbox{-}}$]
+            \item\small {Launched Open Business Payments app on PlayStore and App Store processing 300+ transactions daily.}
+            \item\small {Improved code maintenance and organization by implementing \textbf{MVVM} with clean architecture.}
+            \item\small{Enhanced app stability by implementing \textbf{Firebase Crashlytics}, reducing unresolved crashes by 25\%.}
+            \item\small{Migrated state management from Providers to \textbf{Flutter Riverpod}, optimizing app performance.}
+            \item\small{Created custom packages and plugins using method channels to reduce third-party dependencies.}
+          \end{itemize}
+        \resumeItem{\textbf{NEO for Business - Axis Bank}:}
+          \begin{itemize}[leftmargin=0.15in, label=$\vcenter{\hbox{-}}$]
+            \item\small {Developed a large-scale webview focused app in conjunction with Axis Bank achieveing \textbf{50K+} downloads.}
+            \item\small {Implemented SSL pinning and SIM Binding to enhance security and ensure robust user authentication.}
+          \end{itemize}
+        \item\small{\textbf{Automated build generation} for all mobile applications using Jenkins CI/CD, saving development time}
+        \item\small{Built multiple POC projects to support rapid prototyping and efficient feature implementation.}
+      \resumeItemListEndZeroLeftIndent
+    \resumeSubHeadingListEnd
+
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+
+%-----------PROJECTS-----------
+\section{Achievements}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{DataTalk (OpenGenAI Hackathon)} $|$ \emph{LLM, Python, AWS, LangChain}}{March 2024}
+          \resumeItem{Developed DataTalk, a 3rd prize-winning AI model at the OpenGenAI Hackathon, using Amazon Bedrock to answer queries on Open Money's invoicing module. It implemented similarity search to generate dynamic SQL queries and was optimized with LangChain to reduce API costs by 50\% and improve response times. It cut data analytics efforts at Open by upto 80\%.}
+    \resumeSubHeadingListEnd
+
+
+
+%
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label=$\vcenter{\hbox{\tiny$\bullet$}}$, noitemsep]
+    \resumeSkillItem{\textbf{Languages}{: Dart, Java, C}}
+    \resumeSkillItem{\textbf{Technologies}{: Flutter, Firebase, Flutter Riverpod, Providers, Flutter BLOC, Http, Retrofit, Android, iOS, SQLite, Melos, Hive, Dio, JSON, Data Structures \& Algorithms, MVVM, REST API, Mircorservices, MVC}}
+    % \resumeSkillItem{\textbf{Architectures}{: System Design, Data Structures \& Algorithms, MVVM, REST API, Mircorservices, MVC, ORM}}
+    \resumeSkillItem{\textbf{Platforms}{: macOS, Windows}}
+    \resumeSkillItem{\textbf{Tools}{: Git, GitHub, Postman, Visual Studio Code, Android Studio, Xcode, Jira, Sourcetree, Apidog, Slack}}
+    \resumeSkillItem{ \textbf{Databases}{: MySQL, PostgreSQL}}
+    \resumeSkillItem{\textbf{Soft Skills}{: Leadership, Communication \& Collaboration, Time Management, Creativity, Problem solving}}
+    % \small{\item{
+    %  \textbf{Languages}{: Dart, Java, C} \\
+    %  \textbf{Technologies}{: Flutter, Firebase, Flutter Riverpod, Providers, Flutter BLOC, Http, Retrofit, Android, iOS, SQLite, Melos, Hive, Dio, JSON, Spring Boot, JPA} \\
+    %  \textbf{Architectures}{: System Design, Data Structures \& Algorithms, MVVM, REST API, Mircorservices, MVC, ORM} \\
+    %  \textbf{Databases}{: MySQL, PostgreSQL} \\
+    %  \textbf{Tools}{: Git, GitHub, Postman, Visual Studio Code, IntelliJ, Jira, Sourcetree, Apidog, Slack} \\
+    %  \textbf{Platforms}{: macOS, Windows} \\
+    %  \textbf{Soft Skills}{: Leadership, Communication and Collaboration, Time Management, Creative thinking, Problem solving}
+    % }}
+ \end{itemize}
+
+
+
+%-------------------------------------------
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Odisha University of Technology and Research}{Aug. 2019 -- Apr 2023}
+      {Bachelor of Technology, Information Technology, CGPA: 9.46}{Bhubaneswar, Odisha}
+    \resumeSubheading
+      {DAV Public School}{May. 2018 -- Apr 2019}
+      {Higher Secondary, Science, Result: 93.8\%}{Bhubaneswar, Odisha}
+  \resumeSubHeadingListEnd
+
+  
+\end{document}
