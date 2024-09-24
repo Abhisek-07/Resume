@@ -165,7 +165,7 @@
 
 
 %-----------EXPERIENCE-----------
-\section{Experience}
+\section{Work Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Open Financial Technologies}{May 2023 -- Present}
@@ -173,19 +173,19 @@
       \resumeItemListStartZeroLeftIndent
         \resumeItem{\textbf{Open Business Payments app}:}
           \begin{itemize}[leftmargin=0.15in, label=$\vcenter{\hbox{-}}$]
-            \item\small {Launched Open Business Payments app on PlayStore and App Store processing 300+ transactions daily.}
-            \item\small {Improved code maintenance and organization by implementing \textbf{MVVM} with clean architecture.}
-            \item\small{Enhanced app stability by implementing \textbf{Firebase Crashlytics}, reducing unresolved crashes by 25\%.}
-            \item\small{Migrated state management from Providers to \textbf{Flutter Riverpod}, optimizing app performance.}
-            \item\small{Created custom packages and plugins using method channels to reduce third-party dependencies.}
+            \resumeItem {Launched Open Business Payments app on PlayStore and App Store processing 300+ transactions daily.}
+            \resumeItem {Improved code maintenance and organization by implementing \textbf{MVVM} with clean architecture.}
+            \resumeItem{Enhanced app stability by implementing \textbf{Firebase Crashlytics}, reducing unresolved crashes by 25\%.}
+            \resumeItem{Migrated state management from Providers to \textbf{Flutter Riverpod}, optimizing app performance.}
+            \resumeItem{Created custom packages and plugins using method channels to reduce third-party dependencies.}
           \end{itemize}
         \resumeItem{\textbf{NEO for Business - Axis Bank}:}
           \begin{itemize}[leftmargin=0.15in, label=$\vcenter{\hbox{-}}$]
-            \item\small {Developed a large-scale webview focused app in conjunction with Axis Bank achieveing \textbf{50K+} downloads.}
-            \item\small {Implemented SSL pinning and SIM Binding to enhance security and ensure robust user authentication.}
+            \resumeItem {Developed a large-scale webview focused app in conjunction with Axis Bank achieveing \textbf{50K+} downloads.}
+            \resumeItem {Implemented SSL pinning and SIM Binding to enhance security and ensure robust user authentication.}
           \end{itemize}
-        \item\small{\textbf{Automated build generation} for all mobile applications using Jenkins CI/CD, saving development time}
-        \item\small{Built multiple POC projects to support rapid prototyping and efficient feature implementation.}
+        \resumeItem{\textbf{Automated build generation} for all mobile applications using Jenkins CI/CD, saving development time}
+        \resumeItem{Built multiple POC projects to support rapid prototyping and efficient feature implementation.}
       \resumeItemListEndZeroLeftIndent
     \resumeSubHeadingListEnd
 
@@ -215,7 +215,7 @@
 %
 
 %-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
+\section{Skills}
  \begin{itemize}[leftmargin=0.15in, label=$\vcenter{\hbox{\tiny$\bullet$}}$, noitemsep]
     \resumeSkillItem{\textbf{Languages}{: Dart, Java, C}}
     \resumeSkillItem{\textbf{Technologies}{: Flutter, Firebase, Flutter Riverpod, Providers, Flutter BLOC, Http, Retrofit, Android, iOS, SQLite, Melos, Hive, Dio, JSON, Data Structures \& Algorithms, MVVM, REST API, Mircorservices, MVC}}

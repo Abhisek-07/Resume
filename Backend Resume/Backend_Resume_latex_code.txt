@@ -130,26 +130,26 @@
 \section{Professional Summary}
  \begin{itemize}[leftmargin=0.15in, label={}]
     {
-    \item A seasoned and result-oriented Software Engineer with over a year of experience in the fintech industry, skilled in building scalable, user-focused flutter applications. I am an inquisitive, driven, and self-motivated professional, adept at problem-solving, debugging and unit testing. I am seeking a challenging role that will allow me to further enhance my skills and learn new tech stacks. My technical proficiency and passion for continuous learning position me to make a significant impact within your team.}
+    \item A seasoned and result-oriented software engineer with over a year of experience in the fintech industry, skilled in designing scalable backend systems and developing RESTful APIs. I am an inquisitive, driven, and self-motivated professional, with expertise in microservices, database management, and system architecture. I am seeking a challenging role to enhance my skills while learning new technologies. My technical proficiency and passion for continuous improvement position me to make a meaningful impact for your team.}
  \end{itemize}
 % ---------------------------------------
 
 
 %-----------EXPERIENCE-----------
-\section{Experience}
+\section{Work Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
       {Software Engineer}{Aug 2023 -- Present}
       {Open Financial Technologies}{Bengaluru, Karnataka}
       \resumeItemListStart
-        \resumeItem{Launched \textbf{Open Business Payments} app on PlayStore and App Store processing 300+ transactions daily.}
+        \resumeItem{ Built secure RESTful APIs for Open Money's backend services, with a focus on keeping response times low.}
+        \resumeItem{\textbf{KYC Service Migration}: Led the migration of the Know Your Customer module from a monolithic structure to a standalone microservice, improving scalability and maintainability.}
+        \resumeItem{Designed a common API gateway to route fund transfer requests to different partner banks' APIs based on bank ID and transaction details, centralizing and simplifying API integration.}
         \resumeItem{\textbf{Automated build generation} for all mobile applications using Jenkins CI/CD, saving development time.}
-        \resumeItem{Improved code maintenance and organization by implementing \textbf{MVVM} with clean architecture.}
-        \resumeItem{\textbf{NEO for Business - Axis Bank}: Developed a large scale webview focused app in conjunction with Axis Bank.}
-        \resumeItem{Implemented SSL pinning and SIM Binding in NEO to enhance security and ensure robust user authentication.}
-        \resumeItem{Enhanced app stability by implementing \textbf{Firebase Crashlytics}, reducing unresolved crashes by 25\%,}
-        \resumeItem{Created custom packages and plugins using method channels to reduce third-party dependencies.}
+        \resumeItem{Implemented data caching using Redis to reduce database load and improve response times by 40\%.}
+        \resumeItem{Designed and optimized database schemas, improved query performance, and managed data integrity across DBs.}
+        \resumeItem{\textbf{Scheduled Tasks}: Automated data cleanups and payment processing with Spring Boot cron jobs.}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -166,9 +166,9 @@
       {Engineering Intern}{May. 2023 -- Aug 2023}
       {Open Financial Technologies}{Bengaluru, Karnataka}
       \resumeItemListStart
-        \resumeItem{Built a bus routes app that notifies users 5 minutes prior to bus departure times.}
-        \resumeItem{Developed a versatile Flutter UI component library within a Melos-managed mono repository. }
-        \resumeItem{Built multiple POC projects using Flutter and related technologies.}
+        \resumeItem{Performed code refactoring and bug fixes on the existing codebase, improving maintainability and efficiency.}
+        \resumeItem{Gained hands-on experience in Spring Boot, REST APIs, and backend architecture, working with backend systems}
+        \resumeItem{ Contributed to real-time data sync and transaction management by building and optimizing backend APIs.}
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -200,14 +200,14 @@
 %
 
 %-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
+\section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Dart, Java, C} \\
-     \textbf{Technologies}{: Flutter, Firebase, Flutter Riverpod, Providers, Flutter BLOC, Http, Retrofit, Android, iOS, SQLite, Melos, Hive, Dio, JSON, Spring Boot, JPA} \\
-     \textbf{Architectures}{: System Design, Data Structures \& Algorithms, MVVM, REST API, Mircorservices, MVC, ORM} \\
-     \textbf{Databases}{: MySQL, PostgreSQL} \\
-     \textbf{Tools}{: Git, GitHub, Postman, Visual Studio Code, IntelliJ, Jira, Sourcetree, Apidog, Slack} \\
+     \textbf{Languages}{: Java, Python, Dart} \\
+     \textbf{Technologies}{: Spring Boot, Spring MVC, Spring Data JPA, Hibernate, AWS, Kafka} \\
+     \textbf{Architectures}{: System Design, Data Structures \& Algorithms, OOPs, REST API, Mircorservices, MVC, ORM} \\
+     \textbf{Databases}{: RDBMS -- MySQL, PostgreSQL} \\
+     \textbf{Tools}{: Git, GitHub, Postman, Apidog, Slack, Sumo Logic, Visual Studio Code, IntelliJ, Jira, Sourcetree, Redis, Docker} \\
      \textbf{Platforms}{: macOS, Windows} \\
      \textbf{Soft Skills}{: Leadership, Communication and Collaboration, Time Management, Creative thinking, Problem solving}
     }}
@@ -220,11 +220,11 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Odisha University of Technology and Research}{Bhubaneswar, Odisha}
-      {Bachelor of Technology, Information Technology, CGPA: 9.46}{Aug. 2019 -- Apr 2023}
+      {Odisha University of Technology and Research}{Aug. 2019 -- Apr 2023}
+      {Bachelor of Technology, Information Technology, CGPA: 9.46}{Bhubaneswar, Odisha}
     \resumeSubheading
-      {DAV Public School}{Bhubaneswar, Odisha}
-      {Higher Secondary, Science, Result: 93.8\%}{May. 2018 -- Apr 2019}
+      {DAV Public School}{May. 2018 -- Apr 2019}
+      {Higher Secondary, Science, Result: 93.8\%}{Bhubaneswar, Odisha}
   \resumeSubHeadingListEnd
 
   
