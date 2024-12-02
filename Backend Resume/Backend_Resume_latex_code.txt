@@ -119,7 +119,7 @@
     \textbf{\Huge \scshape Abhisek Dash} \\ \vspace{8pt}
     \small 
     \href{https://github.com/Abhisek-07}{\textcolor{blue!70!black}{\faGithub\ Abhisek-07}} $|$ 
-    \href{https://linkedin.com/in/abhisek-dash-b566b6195/}{\textcolor{blue!70!black}{\faLinkedin\ Abhisek-Dash}} $|$ \href{mailto:abhisekdash6931@gmail.com}{\textcolor{blue!70!black}{\faEnvelope\ abhisekdash6931@gmail.com}} $|$  \textcolor{blue!70!black}{\faMobile\ +91 8018233270}
+    \href{https://linkedin.com/in/abhisek-dash-b566b6195/}{\textcolor{blue!70!black}{\faLinkedin\ Abhisek-Dash}} $|$ \href{mailto:abhisekdash420@gmail.com}{\textcolor{blue!70!black}{\faEnvelope\ abhisekdash420@gmail.com}} $|$  \textcolor{blue!70!black}{\faMobile\ +91 8018233270}
     
     
 \end{center}
@@ -130,7 +130,7 @@
 \section{Professional Summary}
  \begin{itemize}[leftmargin=0.15in, label={}]
     {
-    \item A seasoned and result-oriented software engineer with over a year of experience in the fintech industry, skilled in designing scalable backend systems and developing RESTful APIs. I am an inquisitive, driven, and self-motivated professional, with expertise in microservices, database management, and system architecture. I am seeking a challenging role to enhance my skills while learning new technologies. My technical proficiency and passion for continuous improvement position me to make a meaningful impact for your team.}
+    \item A seasoned and result-oriented software engineer with over 1.5 years of experience in the fintech industry, skilled in designing scalable backend systems and developing RESTful APIs. I am an inquisitive, driven, and self-motivated professional, with expertise in microservices, database management, and system architecture. I am seeking a challenging role to enhance my skills while learning new technologies. My technical proficiency and passion for continuous improvement position me to make a meaningful impact for your team.}
  \end{itemize}
 % ---------------------------------------
 
@@ -186,7 +186,10 @@
             \resumeItem{The project won 3rd prize in the OpenGenAI Hackathon and reduced data analytics effort at Open by upto 80\%.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Football Merch} $|$ \emph{Spring Boot, Java, Maven, Spring Data JPA, Git}}{Oct 2020 -- Dec 2020}
+          {\textbf{Football Merch} $|$ \emph{Spring Boot, Java, Maven, Spring Data JPA, Git}}
+          {
+          % Oct 2020 -- Dec 2020
+          }
           \resumeItemListStart
             \resumeItem{Developed an e-commerce application for football merchandise using Spring Boot and thymeleaf.}
             \resumeItem{Utilised Spring Data JPA and Spring Boot to create APIs for products, orders and other e-commerce components.}
@@ -207,7 +210,7 @@
      \textbf{Technologies}{: Spring Boot, Spring MVC, Spring Data JPA, Hibernate, AWS, Kafka} \\
      \textbf{Architectures}{: System Design, Data Structures \& Algorithms, OOPs, REST API, Mircorservices, MVC, ORM} \\
      \textbf{Databases}{: RDBMS -- MySQL, PostgreSQL} \\
-     \textbf{Tools}{: Git, GitHub, Postman, Apidog, Slack, Sumo Logic, Visual Studio Code, IntelliJ, Jira, Sourcetree, Redis, Docker} \\
+     \textbf{Tools}{: Git, GitHub, Postman, Slack, Grafana, Prometheus, Visual Studio Code, IntelliJ, Jira, Sourcetree, Redis, Docker} \\
      \textbf{Platforms}{: macOS, Windows} \\
      \textbf{Soft Skills}{: Leadership, Communication and Collaboration, Time Management, Creative thinking, Problem solving}
     }}
