@@ -119,7 +119,7 @@
     \textbf{\Huge \scshape Abhisek Dash} \\ \vspace{8pt}
     \small 
     \href{https://github.com/Abhisek-07}{\textcolor{blue!70!black}{\faGithub\ Abhisek-07}} $|$ 
-    \href{https://linkedin.com/in/abhisek-dash-b566b6195/}{\textcolor{blue!70!black}{\faLinkedin\ Abhisek-Dash}} $|$ \href{mailto:abhisekdash420@gmail.com}{\textcolor{blue!70!black}{\faEnvelope\ abhisekdash420@gmail.com}} $|$  \textcolor{blue!70!black}{\faMobile\ +91 8018233270}
+    \href{https://linkedin.com/in/abhisek-dash-b566b6195/}{\textcolor{blue!70!black}{\faLinkedin\ Abhisek-Dash}} $|$ \href{mailto:abhisekdash420@gmail.com}{\textcolor{blue!70!black}{\faEnvelope\ abhisekdash420@gmail.com}} $|$  \textcolor{blue!70!black}{\faMobile\ +91 7608885787}
     
     
 \end{center}
@@ -130,7 +130,7 @@
 \section{Professional Summary}
  \begin{itemize}[leftmargin=0.15in, label={}]
     {
-    \item A seasoned and result-oriented software engineer with over 1.5 years of experience in the fintech industry, skilled in designing scalable backend systems and developing RESTful APIs. I am an inquisitive, driven, and self-motivated professional, with expertise in microservices, database management, and system architecture. I am seeking a challenging role to enhance my skills while learning new technologies. My technical proficiency and passion for continuous improvement position me to make a meaningful impact for your team.}
+    \item A seasoned and result-oriented software engineer bringing nearly 2 years of experience in the fintech industry, skilled in designing scalable backend systems and developing RESTful APIs. I am an inquisitive, driven, and self-motivated professional, with expertise in microservices, database management, and system architecture. I am seeking a challenging role to enhance my skills while learning new technologies. My technical proficiency and passion for continuous improvement position me to make a meaningful impact for your team.}
  \end{itemize}
 % ---------------------------------------
 

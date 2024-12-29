@@ -159,7 +159,7 @@
 \section{Professional Summary}
  \begin{itemize}[leftmargin=0in, label={}]
     {
-    \resumeItem{ A seasoned and result-oriented Software Engineer with over 1.5 years of experience in the fintech industry, skilled in building scalable, user-focused flutter applications. I am an inquisitive, driven, and self-motivated professional, adept at problem-solving, debugging and unit testing. I am seeking a challenging role that will allow me to further enhance my skills and learn new tech stacks. My technical proficiency and passion for continuous learning position me to make a significant impact within your team.}}
+    \resumeItem{ A seasoned and result-oriented Software Engineer bringing nearly 2 years of experience in the fintech industry, skilled in building scalable, user-focused flutter applications. I am an inquisitive, driven, and self-motivated professional, adept at problem-solving, debugging and unit testing. I am seeking a challenging role that will allow me to further enhance my skills and learn new tech stacks. My technical proficiency and passion for continuous learning position me to make a significant impact within your team.}}
  \end{itemize}
 % ---------------------------------------
 
