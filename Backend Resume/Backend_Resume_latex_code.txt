@@ -119,7 +119,7 @@
     \textbf{\Huge \scshape Abhisek Dash} \\ \vspace{8pt}
     \small 
     \href{https://github.com/Abhisek-07}{\textcolor{blue!70!black}{\faGithub\ Abhisek-07}} $|$ 
-    \href{https://linkedin.com/in/abhisek-dash-b566b6195/}{\textcolor{blue!70!black}{\faLinkedin\ Abhisek-Dash}} $|$ \href{mailto:abhisekdash420@gmail.com}{\textcolor{blue!70!black}{\faEnvelope\ abhisekdash420@gmail.com}} $|$  \textcolor{blue!70!black}{\faMobile\ +91 7608885787}
+    \href{https://linkedin.com/in/abhisek-dash-b566b6195/}{\textcolor{blue!70!black}{\faLinkedin\ Abhisek-Dash}} $|$ \href{mailto:abhisekdash420@gmail.com}{\textcolor{blue!70!black}{\faEnvelope\ abhisekdash420@gmail.com}} $|$  \textcolor{blue!70!black}{\faMobile\ +91 8018233270}
     
     
 \end{center}
