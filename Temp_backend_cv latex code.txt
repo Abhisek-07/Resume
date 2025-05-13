@@ -1,0 +1,245 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeEducationSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
+      \textit{\small#3} & \small #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
+      \textbf{\textit{\small#3}} & \small #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{\textit{\small#1}} & \small #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Abhisek Dash} \\ \vspace{8pt}
+    \small 
+    \href{https://github.com/Abhisek-07}{\textcolor{blue!70!black}{\faGithub\ Abhisek-07}} $|$ 
+    \href{https://linkedin.com/in/abhisek-dash-b566b6195/}{\textcolor{blue!70!black}{\faLinkedin\ Abhisek-Dash}} $|$ \href{mailto:abhisekdash420@gmail.com}{\textcolor{blue!70!black}{\faEnvelope\ abhisekdash420@gmail.com}} $|$  \textcolor{blue!70!black}{\faMobile\ +91 8018233270}
+    
+    
+\end{center}
+
+
+% ---------PROFESSIONAL SUMMARY----------
+
+\section{Professional Summary}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    {
+    \item A seasoned and result-oriented software engineer bringing over 2 years of experience in the fintech industry, skilled in designing scalable backend systems and developing RESTful APIs. I am an inquisitive, driven, and self-motivated professional, with expertise in microservices, database management, and system architecture. I am seeking a challenging role to enhance my skills while learning new technologies. My technical proficiency and passion for continuous improvement position me to make a meaningful impact for your team.}
+ \end{itemize}
+% ---------------------------------------
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience \normalfont (2 years)}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading   
+      {FYERS Securities}{Bengaluru, Karnataka}
+      {Software Engineer - 2}{Apr 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Integrated TradingView charting library with backend APIs for seamless market data visualization.}
+        \resumeItem{Building and optimizing cross platform Flutter apps integrating real-time stock data and trading features.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Open Financial Technologies}{}
+      {Software Engineer}{Aug 2023 -- Mar 2025}
+      \resumeItemListStart
+        \resumeItem{ Built secure RESTful APIs for Open Money's backend services, with a focus on keeping response times low.}
+        \resumeItem{KYC Service Migration: Led the migration of the Know Your Customer module from a monolithic structure to a standalone microservice, improving scalability and maintainability.}
+        \resumeItem{Designed a common API gateway to route fund transfer requests to different partner banks' APIs based on bank ID and transaction details, centralizing and simplifying API integration.}
+        \resumeItem{\textbf{Automated build generation} for all mobile applications using Jenkins CI/CD, saving development time.}
+        \resumeItem{Implemented data caching using Redis to reduce database load and improve response times by 40\%.}
+        \resumeItem{Designed and optimized database schemas, improved query performance, and managed data integrity across DBs.}
+        \resumeItem{\textbf{Scheduled Tasks}: Automated data cleanups and payment processing with Spring Boot cron jobs.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubSubheading
+      {Engineering Intern}{May 2023 -- Aug 2023}
+      \resumeItemListStart
+        \resumeItem{Performed code refactoring and bug fixes on the existing codebase, improving maintainability and efficiency.}
+        \resumeItem{Gained hands-on experience in Spring Boot, REST APIs, and backend architecture, working with backend systems}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects \& Hackathons}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{DataTalk (OpenGenAI Hackathon)} $|$ \emph{LLM, Python, AWS, LangChain}}{Mar. 2024}
+          \resumeItemListStart
+            \resumeItem{Developed DataTalk, an AI model to answer user queries on Open Money’s invoicing module using AWS Bedrock}
+            \resumeItem{Used similarity search to generate dynamic SQL queries and presented the data as Natural language using LLMs.}
+            \resumeItem{Optimized the LLM using LangChain framework to reduce API cost and response times by 50\%.}
+            \resumeItem{The project won 3rd prize in the OpenGenAI Hackathon and reduced data analytics effort at Open by upto 80\%.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Football Merch} $|$ \emph{Spring Boot, Java, Maven, Spring Data JPA, Git}}
+          {
+          % Oct 2020 -- Dec 2020
+          }
+          \resumeItemListStart
+            \resumeItem{Developed an e-commerce application for football merchandise using Spring Boot and thymeleaf.}
+            \resumeItem{Utilised Spring Data JPA and Spring Boot to create APIs for products, orders and other e-commerce components.}
+            \resumeItem{Implemented thymeleaf templating engine for server side rendering of web pages following MVC approach.}
+            % \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, Dart} \\
+     \textbf{Technologies}{: Spring Boot, Spring MVC, Spring Data JPA, Hibernate, Flutter, AWS, Kafka} \\
+     \textbf{Architectures}{: System Design, Data Structures \& Algorithms, OOPs, REST API, Microservices, MVC, ORM} \\
+     \textbf{Databases}{: RDBMS -- MySQL, PostgreSQL} \\
+     \textbf{Tools}{: Git, GitHub, Postman, Slack, Grafana, Prometheus, Visual Studio Code, IntelliJ, Jira, Sourcetree, Redis, Docker} \\
+     \textbf{Platforms}{: macOS, Windows} \\
+     \textbf{Soft Skills}{: Leadership, Communication and Collaboration, Time Management, Creative thinking, Problem solving}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeEducationSubheading
+      {Odisha University of Technology and Research}{Bhubaneswar, Odisha}
+      {Bachelor of Technology, Information Technology, CGPA: 9.46}{Aug 2019 -- Apr 2023}
+  \resumeSubHeadingListEnd
+
+  
+\end{document}
