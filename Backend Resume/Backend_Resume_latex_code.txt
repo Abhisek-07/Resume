@@ -72,18 +72,26 @@
   }
 }
 
+\newcommand{\resumeEducationSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
+      \textit{\small#3} & \small #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \textbf{#1} & \textit{#2} \\
+      \textbf{\textit{\small#3}} & \small #4 \\
     \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
+      \textbf{\textit{\small#1}} & \small #2 \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -130,21 +138,29 @@
 \section{Professional Summary}
  \begin{itemize}[leftmargin=0.15in, label={}]
     {
-    \item A seasoned and result-oriented software engineer bringing nearly 2 years of experience in the fintech industry, skilled in designing scalable backend systems and developing RESTful APIs. I am an inquisitive, driven, and self-motivated professional, with expertise in microservices, database management, and system architecture. I am seeking a challenging role to enhance my skills while learning new technologies. My technical proficiency and passion for continuous improvement position me to make a meaningful impact for your team.}
+    \item A seasoned and result-oriented software engineer bringing nearly 3 years of experience in the fintech industry, skilled in designing scalable backend systems and developing RESTful APIs. I am an inquisitive, driven, and self-motivated professional, with expertise in microservices, database management, and system architecture. I am seeking a challenging role to enhance my skills while learning new technologies. My technical proficiency and passion for continuous improvement position me to make a meaningful impact for your team.}
  \end{itemize}
 % ---------------------------------------
 
 
 %-----------EXPERIENCE-----------
-\section{Work Experience}
+\section{Work Experience \normalfont (2 years, 7 months)}
   \resumeSubHeadingListStart
 
+    \resumeSubheading   
+      {FYERS Securities}{Bengaluru, Karnataka}
+      {Software Engineer - 2}{Apr 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Integrated TradingView charting library with backend APIs for seamless market data visualization.}
+        \resumeItem{Building and optimizing cross platform Flutter apps integrating real-time stock data and trading features.}
+      \resumeItemListEnd
+
     \resumeSubheading
-      {Software Engineer}{Aug 2023 -- Present}
-      {Open Financial Technologies}{Bengaluru, Karnataka}
+      {Open Financial Technologies}{}
+      {Software Engineer}{Aug 2023 -- Mar 2025}
       \resumeItemListStart
         \resumeItem{ Built secure RESTful APIs for Open Money's backend services, with a focus on keeping response times low.}
-        \resumeItem{\textbf{KYC Service Migration}: Led the migration of the Know Your Customer module from a monolithic structure to a standalone microservice, improving scalability and maintainability.}
+        \resumeItem{KYC Service Migration: Led the migration of the Know Your Customer module from a monolithic structure to a standalone microservice, improving scalability and maintainability.}
         \resumeItem{Designed a common API gateway to route fund transfer requests to different partner banks' APIs based on bank ID and transaction details, centralizing and simplifying API integration.}
         \resumeItem{\textbf{Automated build generation} for all mobile applications using Jenkins CI/CD, saving development time.}
         \resumeItem{Implemented data caching using Redis to reduce database load and improve response times by 40\%.}
@@ -162,14 +178,12 @@
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
 
-    \resumeSubheading
-      {Engineering Intern}{May. 2023 -- Aug 2023}
-      {Open Financial Technologies}{Bengaluru, Karnataka}
+    \resumeSubSubheading
+      {Engineering Intern}{May 2023 -- Aug 2023}
       \resumeItemListStart
         \resumeItem{Performed code refactoring and bug fixes on the existing codebase, improving maintainability and efficiency.}
         \resumeItem{Gained hands-on experience in Spring Boot, REST APIs, and backend architecture, working with backend systems}
-        \resumeItem{ Contributed to real-time data sync and transaction management by building and optimizing backend APIs.}
-    \resumeItemListEnd
+      \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
@@ -207,8 +221,8 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: Java, Python, Dart} \\
-     \textbf{Technologies}{: Spring Boot, Spring MVC, Spring Data JPA, Hibernate, AWS, Kafka} \\
-     \textbf{Architectures}{: System Design, Data Structures \& Algorithms, OOPs, REST API, Mircorservices, MVC, ORM} \\
+     \textbf{Technologies}{: Spring Boot, Spring MVC, Spring Data JPA, Hibernate, Flutter, AWS, Kafka} \\
+     \textbf{Architectures}{: System Design, Data Structures \& Algorithms, OOPs, REST API, Microservices, MVC, ORM} \\
      \textbf{Databases}{: RDBMS -- MySQL, PostgreSQL} \\
      \textbf{Tools}{: Git, GitHub, Postman, Slack, Grafana, Prometheus, Visual Studio Code, IntelliJ, Jira, Sourcetree, Redis, Docker} \\
      \textbf{Platforms}{: macOS, Windows} \\
@@ -222,12 +236,9 @@
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
-    \resumeSubheading
-      {Odisha University of Technology and Research}{Aug. 2019 -- Apr 2023}
-      {Bachelor of Technology, Information Technology, CGPA: 9.46}{Bhubaneswar, Odisha}
-    \resumeSubheading
-      {DAV Public School}{May. 2018 -- Apr 2019}
-      {Higher Secondary, Science, Result: 93.8\%}{Bhubaneswar, Odisha}
+    \resumeEducationSubheading
+      {Odisha University of Technology and Research}{Bhubaneswar, Odisha}
+      {Bachelor of Technology, Information Technology, CGPA: 9.46}{Aug 2019 -- Apr 2023}
   \resumeSubHeadingListEnd
 
   
