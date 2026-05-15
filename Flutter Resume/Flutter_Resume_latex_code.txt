@@ -144,18 +144,22 @@
 
 
 %-----------EXPERIENCE-----------
-\section{Work Experience \normalfont (2 years, 7 months)}
+\section{Work Experience \normalfont (3 years)}
   \resumeSubHeadingListStart
     \resumeSubheading   
       {FYERS Securities}{Bengaluru, Karnataka}
       {Software Engineer - 2}{Apr 2025 -- Present}
       \resumeItemListStart
-        \resumeItem{Developing and maintaining cross-platform Fyers trading platform using Flutter for both web and mobile.}
-        \resumeItem{Focusing on \textbf{Order Window} and \textbf{Option Chain} modules, enabling real-time market data visualization and seamless trading execution using \textbf{Flutter Bloc} for state management.}
-        \resumeItem{Collaborating with backend and QA teams to deliver high-performance, responsive, and secure user interfaces.}
-        \resumeItem{Implementing efficient state management, WebSocket integration, and API handling for live trading data.}
-      \resumeItemListEnd
+    \resumeItem{Developed multi-order trading workflows for the Fyers platform across Android, iOS, and Web using Flutter.}
+    \resumeItem{Developed features in a \textbf{micro-frontend} architecture with independently managed Flutter repositories.}
+    \resumeItem{Worked on \textbf{Option Chain} module with optimizing rebuilds, contract analysis, and trading interactions.}
+    \resumeItem{Built custom overlay-based Order Window with validations, error handling and order placement.}
+    \resumeItem{Worked on \textbf{Strategy Builder} with SDK integration, live market sync, and high-frequency calculations.}
+    \resumeItem{Improved performance using Dart \textbf{isolates} for concurrent processing and debouncing for symbol LTP sync issues.}
+    \resumeItem{Integrated WebSocket-based real-time market feeds and implemented Flutter \textbf{BLoC} state management.}
+    \resumeItem{Collaborated with backend and QA teams to deliver secure, low-latency trading experiences.}
 
+\resumeItemListEnd
     \resumeSubheading
       {Open Financial Technologies}{}
       {Software Engineer}{Aug 2023 -- Mar 2025}
@@ -166,7 +170,6 @@
         \resumeItem{Migrated state management from Provider to \textbf{Riverpod}, improving performance and code clarity.}
         \resumeItem{Created custom plugins using Flutter’s platform channels to integrate native Android and iOS functionality.}
         \resumeItem{Developed \textbf{NEO for Business (Axis Bank)} — a hybrid fintech app achieving over 50K+ downloads.}
-        \resumeItem{Implemented \textbf{SSL Pinning} and \textbf{SIM Binding} to strengthen app-level security.}
         \resumeItem{Automated Flutter build generation using Jenkins CI/CD, reducing deployment time and human errors.}
       \resumeItemListEnd
 
@@ -188,7 +191,6 @@
           \resumeItemListStart
             \resumeItem{Developed DataTalk, an AI-powered analytics assistant using AWS Bedrock to answer natural language queries.}
             \resumeItem{Integrated LLMs with dynamic SQL generation and similarity search to automate data-driven insights.}
-            \resumeItem{Optimized model execution with LangChain, reducing API cost and latency by 50\%.}
             \resumeItem{Won 3rd prize in the OpenGenAI Hackathon; reduced analytics time for business teams by up to 80\%.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
@@ -201,10 +203,10 @@
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Dart, Java, C} \\
-     \textbf{Technologies}{: Flutter, Firebase, Riverpod, Provider, BLoC, Retrofit, Dio, Android, iOS, SQLite, Hive, JSON, REST API, MVVM, MVC, AI Agents, MCP Server} \\
+     \textbf{Languages}{: Dart, Java, Go, C} \\
+     \textbf{Technologies}{: Flutter, Firebase, Riverpod, Provider, BLoC, Retrofit, Dio, Android, iOS, Web SQLite, Hive, JSON, REST API, WebSockets, MVVM, MVC, AI Agents, MCP Server} \\
      \textbf{Architectures}{: Clean Architecture, State Management, OOPs, Responsive UI Design, Modular Code Structure} \\
-     \textbf{Databases}{: MySQL, PostgreSQL} \\
+     \textbf{Databases}{: MySQL, PostgreSQL, Redis} \\
      \textbf{Tools}{: Git, GitHub, Postman, Visual Studio Code, Android Studio, Xcode, Jira, Sourcetree, Apidog, Slack, Cursor} \\
      \textbf{Platforms}{: macOS, Windows} \\
      \textbf{Soft Skills}{: Leadership, Collaboration, Problem Solving, Creativity, Time Management}
